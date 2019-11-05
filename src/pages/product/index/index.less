@@ -1,0 +1,44 @@
+@spacing: 0.2rem;// 元素之间的核心间距
+@theme-color:#cc0000;//项目主题颜色
+.index-product-left{
+  margin:0 @spacing/2 0.15rem @spacing;
+  border-radius: @spacing/2;
+  box-shadow: 0.03rem 0.03rem 0.03rem #ddd;
+  width: calc(50% - 0.3rem);
+  display: inline-block;
+  vertical-align: top;
+}
+.index-product-right{
+  margin:0 @spacing 0.15rem @spacing/2;
+  border-radius: @spacing/2;
+  box-shadow: 0.03rem 0.03rem 0.03rem #ddd;
+  width: calc(50% - 0.3rem);
+  display: inline-block;
+  vertical-align: top;
+}
+.index-img{
+  border-top-left-radius: 0.1rem;
+  border-top-right-radius: 0.1rem;
+  height: 3.8rem;
+  width: 100%;
+}
+.detail-line{
+  display: inline-block;
+  padding: 0.1rem 0;
+  border-bottom: 1px solid @theme-color;
+}
+.detail-fill{
+  height: 1rem;
+}
+.detail-bottom{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1rem;
+  padding:0 @spacing;
+  background: #fff;
+}
+.detail-replay{
+  margin-left: 0.58rem;
+}

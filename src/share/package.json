@@ -1,0 +1,8 @@
+{
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.js",
+  "name": "Share",
+  "typings": "index.d.ts",
+  "version": "0.0.1"
+}
